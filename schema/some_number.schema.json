@@ -1,3 +1,5 @@
 {
-    "type": "number"
+    "$id": "some_number.schema.json",
+    "type": "number",
+    "description": "this should be a number"
 }

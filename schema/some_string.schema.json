@@ -1,4 +1,5 @@
 {
     "title": "Some String",
+    "description": "this should be a string.",
     "type": "string"
 }

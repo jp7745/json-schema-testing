@@ -1,0 +1,1 @@
+check-jsonschema ./files/test.json --no-cache --schemafile https://raw.githubusercontent.com/jp7745/json-schema-testing/main/schema/schema.json
