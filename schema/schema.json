@@ -10,7 +10,7 @@
             "$ref":"uuid.schema.json"
         },
         "timestamp":{
-            "$ref": "https://raw.githubusercontent.com/jp7745/json-schema-testing/main/schema/schema.json"
+            "$ref": "https://raw.githubusercontent.com/jp7745/json-schema-testing/main/schema/timestamp.schema.json"
         },
         "some_number":{
             "$ref": "https://raw.githubusercontent.com/jp7745/json-schema-testing/main/schema/some_number.schema.json"
