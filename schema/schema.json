@@ -14,6 +14,9 @@
         },
         "some_number":{
             "$ref": "https://raw.githubusercontent.com/jp7745/json-schema-testing/main/schema/some_number.schema.json"
+        },
+        "some_string":{
+            "$ref": "some_string.schema.json"
         }
     }
 }
