@@ -3,7 +3,8 @@
     "required":[
         "timestamp",
         "uuid",
-        "some_number"
+        "some_number",
+        "some_string"
     ],
     "properties":{
         "uuid":{

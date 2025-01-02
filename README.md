@@ -19,9 +19,11 @@ Testing `check-jsonschema` python package instead.  Also testing Microsoft VS co
   - Microsoft VS code does *NOT* catch some invalid values when `format` of `uuid` and `date-time`.
 
 
-Conclusion:  Microsoft VS code does not catch `format` restrictions.  Validation scripts should be written to use the Python package `check-jsonschema`.
+Conclusion 1:  Microsoft VS code does not catch `format` restrictions.  Validation scripts should be written to use the Python package `check-jsonschema`.
 
-Conclusion 2:  It's ok to write a schema with relative `"$ref"`-ed schemas.  I.e., sub-objects with their own schema do not need the full URL.
+Conclusion 2:  Should also include a `pattern` in the timestamp and UUID schemas.  This is primarily to help out VS code users quickly identify issues.
+
+Conclusion 3:  It's ok to write a schema with relative `"$ref"`-ed schemas.  I.e., sub-objects with their own schema do not need the full URL.
 
 
 Example of `check-jsonschema` command:
