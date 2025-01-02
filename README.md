@@ -33,6 +33,6 @@ Conclusion 3:  It's ok to write a schema with relative `"$ref"`-ed schemas.  I.e
 
 Example of `check-jsonschema` command:
 
-check-jsonschema ./files/test.json --no-cache --schemafile https://raw.githubusercontent.com/jp7745/json-schema-testing/main/schema/schema.json
+`check-jsonschema ./files/test.json --no-cache --schemafile https://raw.githubusercontent.com/jp7745/json-schema-testing/main/schema/schema.json`
 
 
