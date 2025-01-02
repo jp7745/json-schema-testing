@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/jp7745/json-schema-testing/main/schema/schema.json",
-    "timestamp": 44,
-    "uuid": "turkey",
-    "some_number": "turkey",
-    "some_string": 44
+    "timestamp": "2024-11-20T00:00:00+00:00",
+    "uuid": "88888888-4444-4444-4444-121212121212",
+    "some_number": 44,
+    "some_string": "hello"
 }

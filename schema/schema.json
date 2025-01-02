@@ -14,10 +14,12 @@
             "$ref": "https://raw.githubusercontent.com/jp7745/json-schema-testing/main/schema/timestamp.schema.json"
         },
         "some_number":{
-            "$ref": "https://raw.githubusercontent.com/jp7745/json-schema-testing/main/schema/some_number.schema.json"
+            "$ref": "https://raw.githubusercontent.com/jp7745/json-schema-testing/main/schema/some_number.schema.json",
+            "comment": "an absolute reference."
         },
         "some_string":{
-            "$ref": "some_string.schema.json"
+            "$ref": "some_string.schema.json",
+            "comment": "a relative reference."
         }
     }
 }
